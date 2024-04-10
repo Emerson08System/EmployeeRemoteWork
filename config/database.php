@@ -50,7 +50,7 @@ return [
             'engine' => null,
         ],
 
-        'workfolio_main' => [
+        'work_main_db' => [
             'driver' => 'mysql',
             'host' => env('WORKFOLIO_MAIN_DB_HOST', '194.110.173.106'),
             'port' => env('WORKFOLIO_MAIN_DB_PORT', '3306'),
@@ -64,6 +64,36 @@ return [
             'strict' => true,
             'engine' => null,
         ],
+
+        // 'mysql' => [
+        //     'driver' => 'mysql',
+        //     'host' => env('DB_HOST', '127.0.0.1'),
+        //     'port' => env('DB_PORT', '3306'),
+        //     'database' => env('DB_DATABASE', 'workfolio_employee_track'),
+        //     'username' => env('DB_USERNAME', 'root'),
+        //     'password' => env('DB_PASSWORD', ''),
+        //     'unix_socket' => env('DB_SOCKET', ''),
+        //     'charset' => 'utf8mb4',
+        //     'collation' => 'utf8mb4_unicode_ci',
+        //     'prefix' => '',
+        //     'strict' => true,
+        //     'engine' => null,
+        // ],
+
+        // 'workfolio_main' => [
+        //     'driver' => 'mysql',
+        //     'host' => env('WORKFOLIO_MAIN_DB_HOST', '127.0.0.1'),
+        //     'port' => env('WORKFOLIO_MAIN_DB_PORT', '3306'),
+        //     'database' => env('WORKFOLIO_MAIN_DB_DATABASE', 'workfolio_main'),
+        //     'username' => env('WORKFOLIO_MAIN_DB_USERNAME', 'root'),
+        //     'password' => env('WORKFOLIO_MAIN_DB_PASSWORD', ''),
+        //     'unix_socket' => env('WORKFOLIO_MAIN_DB_SOCKET', ''),
+        //     'charset' => 'utf8mb4',
+        //     'collation' => 'utf8mb4_unicode_ci',
+        //     'prefix' => '',
+        //     'strict' => true,
+        //     'engine' => null,
+        // ],
 
         // 'sqlite' => [
         //     'driver' => 'sqlite',
